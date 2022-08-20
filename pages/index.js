@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 import Head from 'next/head'
 
 import { supabase } from '../lib/initSupabase';
-import Login from '../components/Login';
-import Profile from '../components/Profile';
+import Login from '../components/login';
+import Profile from '../components/profile';
 
 export default function Home() {
   const [session, setSession] = useState(null);
